@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../sand"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"config.h": "c",
+			"stdlib.h": "c",
+			"stdint.h": "c",
+			"stdbool.h": "c"
+		}
+	}
+}

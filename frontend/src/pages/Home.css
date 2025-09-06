@@ -1,0 +1,50 @@
+h1 {
+    font-size: 2em;        
+    font-weight: bold;    
+    margin: 0.67em 0; 
+}
+
+.button {
+    border: 2px solid transparent;     
+    padding: 12px 20px;               
+    border-radius: 100px;
+    background-color: #5B9BED;
+    transform: scale(1.1);             
+    margin: 5% 0;
+    text-align: center;
+    transition: all 0.5s ease;
+    
+    color: white;
+    font-weight: bold;
+}
+
+@media (orientation: landscape) and (max-height: 480px) {
+    .button {
+        font-size: clamp(1vmax, 2vmax, 3vmax);
+    }
+}
+
+@media (min-width: 768px) {
+    .button {
+        transform: scale(1.7);
+    }
+}
+
+.button:hover {
+    background: white;
+    border-color: #5B9BED;
+
+    /* Change text color */
+    color: black;
+}
+
+.home-description {
+    position: center;
+    font-size: 100%;
+}
+
+.center {
+    position: relative;
+    top: 40vh;
+}
+
